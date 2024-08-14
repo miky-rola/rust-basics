@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[[bin]]
+name= "mutable"
+path= "src/mutable_ref.rs"
+
+[[bin]]
+name="references"
+path="src/ref.rs"

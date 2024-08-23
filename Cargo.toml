@@ -16,3 +16,7 @@ path="src/ref.rs"
 [[bin]]
 name="memory"
 path="src/mem_address.rs"
+
+[[bin]]
+name="struct"
+path="src/structs.rs"

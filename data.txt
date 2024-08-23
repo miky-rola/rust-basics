@@ -1,0 +1,3 @@
+User { email: "mikyrola8@gmail.com", username: "mikyrola", verified: false }
+User { email: "mikyrola@gmail.com", username: "miky", verified: false }
+User { email: "miky@gmail.com", username: "rola", verified: false }

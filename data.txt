@@ -1,3 +1,12 @@
-User { email: "mikyrola8@gmail.com", username: "mikyrola", verified: false }
-User { email: "mikyrola@gmail.com", username: "miky", verified: false }
-User { email: "miky@gmail.com", username: "rola", verified: false }
+User { email: "test1@example.com", username: "test", verified: false }
+User { email: "test1@example2.com", username: "test2", verified: false }
+User { email: "test1@example3.com", username: "test3", verified: false }
+User { email: "test1@example.com", username: "test", verified: false }
+User { email: "test1@example2.com", username: "test2", verified: false }
+User { email: "test1@example3.com", username: "test3", verified: false }
+User { email: "test1@example.com", username: "test", verified: false }
+User { email: "test1@example2.com", username: "test2", verified: false }
+User { email: "test1@example3.com", username: "test3", verified: false }
+User { email: "test1@example.com", username: "test", verified: false }
+User { email: "test1@example2.com", username: "test2", verified: false }
+User { email: "test1@example3.com", username: "test3", verified: false }

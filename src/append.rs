@@ -1,7 +1,8 @@
 
-
-use std::fs::File;
+#[allow(unused_imports)] 
+use std::fs::File;  
 use std::io::Write;
+use std::fs::OpenOptions;
 
 #[derive(Debug)]
 struct User {
@@ -29,7 +30,10 @@ fn main(){
     let user3_username: String = String::from("test3");
     let user3 = build_user(user3_email, user3_username );
 
-    let mut file = File::create("data.txt").expect("unable to create file");
+    let mut file = OpenOptions::new()
+        .append(true)
+        .open("data.txt")
+        .expect("unable to create file");
     writeln!(file, "{:?}", user1).expect("couldnt write file");
     writeln!(file, "{:?}", user2).expect("couldnt write file");
     writeln!(file, "{:?}", user3).expect("couldnt write file");

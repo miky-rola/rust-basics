@@ -20,3 +20,8 @@ path="src/mem_address.rs"
 [[bin]]
 name="struct"
 path="src/structs.rs"
+
+
+[[bin]]
+name="append"
+path="src/append.rs"
